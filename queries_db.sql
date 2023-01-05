@@ -45,7 +45,16 @@ FROM account;
 SELECT MAX(avail_balance)
 FROM account;
 /* 14 */
-SELECT MAX(avail_balance)
+SELECT MIN(avail_balance)
+FROM account;
+/* 15 */
+SELECT COUNT(*)
+FROM acc_transaction;
+/* 16 */
+SELECT COUNT(*)
+FROM account;
+/* 17 */
+SELECT last_activity_date
 FROM account;
 
 
